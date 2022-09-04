@@ -1,6 +1,8 @@
 步骤
 1、安装dfx
   sh -ci "$(curl -fsSL https://smartcontracts.org/install.sh)"
+  添加 bin 目录
+  export PATH=$HOME/bin:$PATH
   
 2、检查 principai id
   dfx identity get-principal
